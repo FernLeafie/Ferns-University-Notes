@@ -1,0 +1,12 @@
+# Obsidians trash folder
+**/.trash
+
+# Folder for Make.md
+# Just contains two databases
+**/.makemd
+# another database?
+**/.obsidian/plugins/make-md/Spaces.mdb
+
+# Incase syncthing is used anywhere
+**/.stfolder
+*.sync-conflict-*
