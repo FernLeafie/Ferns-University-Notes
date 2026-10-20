@@ -1,0 +1,3 @@
+---
+sticker: resources//Karlstads Universitet
+---

@@ -1,0 +1,15 @@
+{
+  "resources": {
+    "name": "Resources",
+    "path": "Resources",
+    "type": "folder",
+    "description": "Icon set created from Resources",
+    "tags": [
+      "custom",
+      "user"
+    ],
+    "icons": [
+      "Karlstads_universitet_Logo"
+    ]
+  }
+}

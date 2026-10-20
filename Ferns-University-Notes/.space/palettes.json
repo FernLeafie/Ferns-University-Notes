@@ -1,0 +1,90 @@
+{
+  "palette-1790976173740": {
+    "id": "palette-1790976173740",
+    "name": "Mocha",
+    "path": "assets/color-palettes/Mocha",
+    "type": "colorpalette",
+    "colors": [
+      {
+        "name": "Color1",
+        "value": "#f5e0dc",
+        "category": "custom"
+      },
+      {
+        "name": "Color 2",
+        "value": "#f2cdcd",
+        "category": "custom"
+      },
+      {
+        "name": "Color 3",
+        "value": "#f5c2e7",
+        "category": "custom"
+      },
+      {
+        "name": "Color 4",
+        "value": "#cba6f7",
+        "category": "custom"
+      },
+      {
+        "name": "Color 5",
+        "value": "#f38ba8",
+        "category": "custom"
+      },
+      {
+        "name": "Color 6",
+        "value": "#eba0ac",
+        "category": "custom"
+      },
+      {
+        "name": "Color 7",
+        "value": "#fab387",
+        "category": "custom"
+      },
+      {
+        "name": "Color 8",
+        "value": "#f9e2af",
+        "category": "custom"
+      },
+      {
+        "name": "Color 9",
+        "value": "#a6e3a1",
+        "category": "custom"
+      },
+      {
+        "name": "Color 10",
+        "value": "#94e2d5",
+        "category": "custom"
+      },
+      {
+        "name": "Color 11",
+        "value": "#89dceb",
+        "category": "custom"
+      },
+      {
+        "name": "Color 12",
+        "value": "#74c7ec",
+        "category": "custom"
+      },
+      {
+        "name": "Color 13",
+        "value": "#89b4fa",
+        "category": "custom"
+      },
+      {
+        "name": "Color 14",
+        "value": "#b4befe",
+        "category": "custom"
+      }
+    ],
+    "gradients": [],
+    "designSystemMapping": {
+      "baseTokens": {},
+      "semanticTokens": {}
+    },
+    "tags": [],
+    "category": "custom",
+    "description": "",
+    "created": 1790976173740,
+    "modified": 1790976283549
+  }
+}

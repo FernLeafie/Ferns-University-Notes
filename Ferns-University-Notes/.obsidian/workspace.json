@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "0e843ea4372058fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffbd95312d586242",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "420cc0f84dd16e63",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "602003cd7cc647e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a65dfbe4b0cf2d0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf34021e2ffeb115",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "214ca5c60471ca1f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "index",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "51e46f76e601d5e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "2c0866017d0e2398",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315.71875
+  },
+  "right": {
+    "id": "9cec4958b4ce4cab",
+    "type": "split",
+    "children": [
+      {
+        "id": "5410b7686dac5136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0c62d17d542ba23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MABX03 - Introductory course in maths/Monday.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d59160890e8d67c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MABX03 - Introductory course in maths/Monday.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "82c54bf03f0930c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2132440b5eb47d75",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b580a17343a5a01a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MABX03 - Introductory course in maths/Monday.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vim-toggle:Toggle Vim Mode": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "420cc0f84dd16e63",
+  "lastOpenFiles": [
+    "Y1S1 - MAGA52 Calculus and Geometry",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/attachments/Exercises to Lecture 7 2026-09-18 15.07.29.excalidraw.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/attachments/Exercises to Lecture 7 2026-09-18 15.04.45.excalidraw.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Repetition/Repetition.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Repetition/Dugga 1 - Repitition.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lectures.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 9 - Limits for Infinity.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 8 - Arcus Functions and Limits.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 7 - Combined Functions.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 6 - Trig.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 4-5.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 3 - Coordinates in the Plane and Conic sections.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 2 - Set Theory and Logic.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 15 - Extreme Values.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 14 - Coupled Speeds and L'Hôpital.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 13 - Derivative of the Inverse Function.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 12 - Implicit Derivation and More .md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 11 - Derivatives.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 10 - Asymptotes.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures/Lecture 1 - Basic Expressions.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises/Exercises.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises/Exercises to Lecture 9.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises/Exercises to Lecture 8.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises/Exercises to Lecture 7.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises/Exercises to Lecture 5.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises/Exercises to Lecture 4.md",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/attachments",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Repetition",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Lectures",
+    "Y1S1 - MAGA51 Foundation course in Mathematics/Exercises",
+    "Y1S1 - MAGA51 Foundation course in Mathematics",
+    "Y1S1 - MABX03 Preparatory course in Mathematics/attachments",
+    "Y1S1 - MABX03 Preparatory course in Mathematics",
+    "Y1S1 - FYGA55 Experimental problem solving for computer scientists/DATA/attachments",
+    "Y1S1 - FYGA55 Experimental problem solving for computer scientists/Project",
+    "Y1S1 - FYGA55 Experimental problem solving for computer scientists/MÄTA",
+    "Resources/Karlstads Universitet.svg",
+    "MAGA51 - Basic course in mathematics/attachments/Pasted image 20261008114830.png",
+    "Pasted image 20260824094022.png",
+    "meow/attachments/Pasted image 20260824094042.png",
+    "Pasted image 20260824093957.png",
+    "Untitled.canvas",
+    "//Untitled.canvas"
+  ]
+}
