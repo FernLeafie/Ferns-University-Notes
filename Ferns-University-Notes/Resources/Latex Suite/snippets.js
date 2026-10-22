@@ -567,52 +567,52 @@ export default [
   // {trigger: /([A-Za-z]=\d+)([\n\s.,?!:'])/, replacement: "$[[0]]$[[1]]", options: "rtAw"},
   // {trigger: /([A-Za-z]=[A-Za-z][+-]\d+)([\n\s.,?!:'])/, replacement: "$[[0]]$[[1]]", options: "tAw"},
 
-	// Disable automatic snippets while typing macros
-	// This is a catch all rule that may disable other snippets in some cases.
-	// Increase the priority of the snippets that shouldn't be disabled.
-	// {trigger: /(\\[A-Za-z]+)/, replacement: "[[0]]$0", options: "mAU", priority: 100, description: "Disable snippets while typing macros"},
+  // Disable automatic snippets while typing macros
+  // This is a catch all rule that may disable other snippets in some cases.
+  // Increase the priority of the snippets that shouldn't be disabled.
+  // {trigger: /(\\[A-Za-z]+)/, replacement: "[[0]]$0", options: "mAU", priority: 100, description: "Disable snippets while typing macros"},
 
-	// Disable snippets while typing macros, doesn't insert an undo stop because of the option "U", thus its treated normal typing.
-	// like \top -> \top but \tox -> \to x as \tox is not a macro but \top is.
-	// In order to add your custom macros to the list, you can do require("latex-suite").ALL_MACROS.push("\\my_macro") at the top or bottom of this file.
-	// outside this function and array.
-	{
-		trigger: /\\[A-Za-z]{2,}/,
-		replacement: function (match) {
-			/** @type {string} */
-			const string = match[0];
-			const trigger = string.slice(1);
-			
-			const names = require("latex-suite").ALL_MACROS;
-			if (names.some(name => name.startsWith(string))) {
-				return string;
-			}
-			return false;
-		},
-		options: "mAU",
-		priority: 3,
-		description: "Disable snippets while typing macros",
-	},
-	// Add space after macros if not part of another macro
-	{
-		trigger: /\\[A-Za-z]{2,}/,
-		replacement: function (match) {
-			/** @type {string} */
-			const string = match[0];
-			const trigger = string.slice(1);
-			
-			const names = require("latex-suite").ALL_MACROS;
-			if (!names.some(name => name.startsWith(string))) {
-				const macro = trigger.slice(0, -1);
-				const letter = trigger.slice(-1);
-				return "\\" + macro + " " + letter;
-			}
-			return false;
-		},
-		options: "mA",
-		priority: 3,
-		description: "Insert space after macros if not part of another macro",
-	},
+  // Disable snippets while typing macros, doesn't insert an undo stop because of the option "U", thus its treated normal typing.
+  // like \top -> \top but \tox -> \to x as \tox is not a macro but \top is.
+  // In order to add your custom macros to the list, you can do require("latex-suite").ALL_MACROS.push("\\my_macro") at the top or bottom of this file.
+  // outside this function and array.
+  {
+    trigger: /\\[A-Za-z]{2,}/,
+    replacement: function (match) {
+      /** @type {string} */
+      const string = match[0];
+      const trigger = string.slice(1);
+
+      const names = require("latex-suite").ALL_MACROS;
+      if (names.some((name) => name.startsWith(string))) {
+        return string;
+      }
+      return false;
+    },
+    options: "mAU",
+    priority: 3,
+    description: "Disable snippets while typing macros",
+  },
+  // Add space after macros if not part of another macro
+  {
+    trigger: /\\[A-Za-z]{2,}/,
+    replacement: function (match) {
+      /** @type {string} */
+      const string = match[0];
+      const trigger = string.slice(1);
+
+      const names = require("latex-suite").ALL_MACROS;
+      if (!names.some((name) => name.startsWith(string))) {
+        const macro = trigger.slice(0, -1);
+        const letter = trigger.slice(-1);
+        return "\\" + macro + " " + letter;
+      }
+      return false;
+    },
+    options: "mA",
+    priority: 3,
+    description: "Insert space after macros if not part of another macro",
+  },
 
   // Snippet replacements can have placeholders.
   {
@@ -700,7 +700,7 @@ export default [
 
   // short hands
   { trigger: "l'h", replacement: "\\overset{\\text{L'H}}{=}", options: "mA" },
-  { trigger: "`", replacement: '`` $0 "$1', options: "mA" },
+  { trigger: "`", replacement: '\\ `` $0 "$1', options: "mA" },
   { trigger: "lhs", replacement: "\\mathrm{L.H.S.}", options: "mA" },
   { trigger: "rhs", replacement: "\\mathrm{R.H.S.}", options: "mA" },
   { trigger: "qed", replacement: "\\mathrm{Q.E.D.}", options: "mA" },
@@ -715,10 +715,9 @@ export default [
     options: "rMA",
     description: "Miscellaneous environments with new lines",
   },
-      {
-        trigger: /(array)/,
-        replacement: "\\begin{[[0]]}{$0}$1\\end{[[0]]}",
-        options: "rnA",
-    },
-
+  {
+    trigger: /(array)/,
+    replacement: "\\begin{[[0]]}{$0}$1\\end{[[0]]}",
+    options: "rnA",
+  },
 ];
