@@ -700,7 +700,7 @@ export default [
 
   // short hands
   { trigger: "l'h", replacement: "\\overset{\\text{L'H}}{=}", options: "mA" },
-  { trigger: "`", replacement: '\\ `` $0 "$1', options: "mA" },
+  { trigger: "`", replacement: '\\ `` $0 "\\ $1', options: "mA" },
   { trigger: "lhs", replacement: "\\mathrm{L.H.S.}", options: "mA" },
   { trigger: "rhs", replacement: "\\mathrm{R.H.S.}", options: "mA" },
   { trigger: "qed", replacement: "\\mathrm{Q.E.D.}", options: "mA" },
