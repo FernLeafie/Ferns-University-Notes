@@ -1,16 +1,16 @@
-IMRaD (Introduction, Method, Result and Discussion)
+IMRaD (Introduction, Method, Result, and Discussion)
 
 Vetenskapliga artiklar
 - Original articles
 - Reviews
 - Theoretical articles
 
-monographies: thick books by one group
-antologoes: multitude of authors with different subjects
+- Monographies: thick books by one group
+- Anthologies: multitude of authors with different subjects
 
 Reports, scientific reports ordered by institutions
 
-peer reviewd and refereed mean the same thing
+Peer reviewed and refereed mean the same thing
 
 Where can you find science?
 - Specific search engines and databases
