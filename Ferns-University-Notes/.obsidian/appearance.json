@@ -4,5 +4,6 @@
   "monospaceFontFamily": "Maple Mono NF CN",
   "baseFontSizeAction": true,
   "baseFontSize": 15,
-  "textFontFamily": "Vollkorn"
+  "textFontFamily": "Vollkorn",
+  "interfaceFontFamily": ""
 }
