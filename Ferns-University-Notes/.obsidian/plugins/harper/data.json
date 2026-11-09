@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[]}",
+  "ignoredLints": "{\"context_hashes\":[16111641242690147625]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -925,7 +925,11 @@
     "Codomain",
     "L'Hôpital",
     "Monographies",
-    "inversible"
+    "inversible",
+    "Autolab",
+    "Linearisation",
+    "SI",
+    "tenta"
   ],
   "dialect": 1,
   "delay": -1,
