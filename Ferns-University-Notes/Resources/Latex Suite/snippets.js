@@ -686,6 +686,8 @@ export default [
   { trigger: '"', replacement: "\\text{${VISUAL}}", options: "mA" },
   { trigger: "^", replacement: "^{${VISUAL}}", options: "mA" },
   { trigger: "E", replacement: "\\enclose{box}{${VISUAL}}", options: "mA" },
+  { trigger: "D", replacement: "\\overset{\\downarrow}{${VISUAL}}", options: "mA" },
+  { trigger: "I", replacement: "\\overset{\\uparrow}{${VISUAL}}", options: "mA" },
 
   {
     trigger: "ebox",

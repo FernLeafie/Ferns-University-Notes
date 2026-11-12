@@ -43,7 +43,6 @@
     "//MAGA51 - Basic course in mathemathics",
     "//FYGA55 - Experimental problem solving for computer scientists/FYGA55 - Experimental problem solving for computer scientists/MÄTA",
     "//",
-    "//Y1S1 - MAGA52 Calculus and Geometry",
     "//Y1S1 - FYGA55 Experimental problem solving for computer scientists/Y1S1 - FYGA55 Experimental problem solving for computer scientists/MÄTA",
     "//Y1S1 - FYGA55 Experimental problem solving for computer scientists/Y1S1 - FYGA55 Experimental problem solving for computer scientists/DATA",
     "//mk-core:",
@@ -51,9 +50,10 @@
     "//Y1S1 - MAGA51 Foundation course in Mathematics/Y1S1 - MAGA51 Foundation course in Mathematics/Exercises",
     "//Y1S1 - MAGA51 Foundation course in Mathematics/Y1S1 - MAGA51 Foundation course in Mathematics/Repetition",
     "//Y1S1 - MAGA51 Foundation course in Mathematics/Y1S1 - MAGA51 Foundation course in Mathematics/Lectures",
-    "/",
     "//Y1S1 - DVGA01 Programming Techniques ",
-    "//Y1S1 - DVGA01 Programming Techniques /Y1S1 - DVGA01 Programming Techniques /Lectures"
+    "//Y1S1 - DVGA01 Programming Techniques /Y1S1 - DVGA01 Programming Techniques /Lectures",
+    "/",
+    "//Y1S1 - MAGA52 Calculus and Geometry"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
