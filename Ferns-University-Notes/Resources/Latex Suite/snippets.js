@@ -7,7 +7,7 @@ export default [
   // display math behaves like codeblocks, as in no text is allowed on the same line of the opening $$ thus a newline is added.
   {
     trigger: "dm",
-    replacement: "\n$$\n$0\n$$",
+    replacement: "$$\n$0\n$$",
     options: "tAw",
     description: "Display Math on empty line",
   },

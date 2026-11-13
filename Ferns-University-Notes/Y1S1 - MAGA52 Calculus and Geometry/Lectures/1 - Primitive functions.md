@@ -171,7 +171,7 @@ Similarly ${}\int \sin ^{2}(x) \, dx{}$, using ${}\sin ^{2}(x)=\dfrac{1-\cos(2x)
 
 $$
 \begin{align}
-\int \cos ^{2}() \, dx = \int \dfrac{1-\cos(2x)}{2} \, dx   \\
+\int \cos ^{2}(x) \, dx = \int \dfrac{1-\cos(2x)}{2} \, dx   \\
 \dfrac{x}{2}-\dfrac{\sin(2x)}{4}+C
 \end{align}
 $$
