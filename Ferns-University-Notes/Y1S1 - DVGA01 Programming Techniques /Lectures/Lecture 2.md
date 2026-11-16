@@ -19,7 +19,7 @@ The `{ }` indicate a programming block, and mark the beginning and end of the fu
 
 ```c
 int main() {
-  printf("Hello World\n");
+	printf("Hello World\n");
 }
 ```
 `printf` is a function from the standard library input output, `stdio`, 
@@ -31,8 +31,8 @@ The `;` indicates the end of a line, or the end of a function call, all lines th
 
 ```c
 int main() {
-  printf("hello world");
-  return 0;
+	printf("hello world");
+	return 0;
 }
 ```
 `return 0;` ends the function, by returning an exit code, of the type `int` specified earlier, 0 is the Unix exit code for the program succeeding, but it can return any number it desires.
@@ -170,33 +170,33 @@ Type casting converts between types, and can have many unintended consequences i
 #### Printing Values
 ```c
 int main() {
-  int size = 10;
-  char letter = 'a';
-  // letter = 97;
-  
-  printf("size is: %d \n", size);
-  // %d refers to a digit in the input arguments
-
-  printf("letter is: %c \n", letter)
-  // %c prints the value as if it's a char
-
-  printf("letter is: %d \n", letter)
-  // this prints the value stored in letter
-  // letter is interpreted as a digit
-  // 97
-
-  return 0;
+	int size = 10;
+	char letter = 'a';
+	// letter = 97;
+	
+	printf("size is: %d \n", size);
+	// %d refers to a digit in the input arguments
+	
+	printf("letter is: %c \n", letter)
+	// %c prints the value as if it's a char
+	
+	printf("letter is: %d \n", letter)
+	// this prints the value stored in letter
+	// letter is interpreted as a digit
+	// 97
+	
+	return 0;
 }
 ```
 Everything in a computer is digits, and can be manipulated as such, all we do is choose how to interpret it.
 The `%d, %i, %c` decides how `printf` interprets the values
 ```c
 int main() {
-  char letter = 'a';
-  letter = 'b' - ('a' - 'A');
-  
-  printf("%c \n", letter);
-  // prints B
+	char letter = 'a';
+	letter = 'b' - ('a' - 'A');
+	
+	printf("%c \n", letter);
+	// prints B
 }
 ```
 
@@ -204,15 +204,15 @@ int main() {
 Values are read from the terminal using `scanf`
 ```c
 int main() {
-  int num1;
-  int num2;
-  
-  scanf("%d %d", &num1, &num2);
-  int sum = num1 + num2;
-  
-  printf("%d\n", sum);
-  
-  return 0;
+	int num1;
+	int num2;
+	
+	scanf("%d %d", &num1, &num2);
+	int sum = num1 + num2;
+	
+	printf("%d\n", sum);
+	
+	return 0;
 }
 ```
 `&` indicates a pointer, which will be covered later.

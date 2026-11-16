@@ -4,5 +4,6 @@
   "readableLineLength": true,
   "vimMode": true,
   "showLineNumber": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "tabSize": 2
 }
