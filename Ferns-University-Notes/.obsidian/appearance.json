@@ -5,5 +5,6 @@
   "baseFontSizeAction": true,
   "baseFontSize": 15,
   "textFontFamily": "Vollkorn",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "showRibbon": true
 }
