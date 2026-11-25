@@ -15,7 +15,7 @@ $$
 \begin{align}
 D_{f} = (1,\infty) \\
 V_{f} = \mathbb{R} \\
-D_{g}= [0,\infty) \mid  D_{g}= \{ x\geq0 \} \mid D_{g}: x\geq0 \mid D_{g} = \mathbb{R}_{+} \cup \{ 0 \} \\
+D_{g}= [0,\infty) \mid  D_{g}= \{ x\geqslant0 \} \mid D_{g}: x\geqslant0 \mid D_{g} = \mathbb{R}_{+} \cup \{ 0 \} \\
 V_{g} = [0,\infty)
 \end{align}
 $$
@@ -39,7 +39,7 @@ $$
 D_{h} = [2,\infty)
 \end{align}
 $$
-Since $x>0$ due to $\ln$ needing positive values, and since the $\sqrt{  }$ requires postive values, $\ln(x-1)\geq 0 \iff x-1\geq e^{ 0 }=1 \iff x\geq 2$, and $(1,\infty)\cap[2,\infty)=[2,\infty)$
+Since $x>0$ due to $\ln$ needing positive values, and since the $\sqrt{  }$ requires postive values, $\ln(x-1)\geqslant 0 \iff x-1\geqslant e^{ 0 }=1 \iff x\geqslant 2$, and $(1,\infty)\cap[2,\infty)=[2,\infty)$
 
 Let $f(x)=2\sin x$ and $g(x)=\sqrt{ 1-x^{2} }$
 a) find the domain of $f$ and $g$
@@ -60,10 +60,10 @@ $$
 
 $$
 \begin{align}
-1-4\sin ^{2} x\geq 0 \\
-(1-2\sin x)(1+2\sin x) \geq 0 \\
+1-4\sin ^{2} x\geqslant 0 \\
+(1-2\sin x)(1+2\sin x) \geqslant 0 \\
 \sin x=t, t\in[-1,1] \\
-(1-2t)(1+2t) \geq 0 \\
+(1-2t)(1+2t) \geqslant 0 \\
 \end{align}
 $$
 
@@ -75,7 +75,7 @@ $$
 
 $$
 \begin{align}
--\dfrac{1}{2} \leq \sin x\leq \dfrac{1}{2} \\
+-\dfrac{1}{2} \leqslant \sin x\leqslant \dfrac{1}{2} \\
 \end{align}
 $$
 

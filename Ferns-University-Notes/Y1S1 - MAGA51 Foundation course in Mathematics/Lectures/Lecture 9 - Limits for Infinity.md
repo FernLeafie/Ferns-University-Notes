@@ -133,9 +133,9 @@ or using squeeze theorem
 $$
 \begin{align}
 \lim_{ x \to \infty } \dfrac{\sin(x)}{\sqrt{ x }} \\
--1\leq\sin(x)\leq1 \\
--\dfrac{1}{\sqrt{ x }}\leq \dfrac{\sin(x)}{\sqrt{ x }}\leq \dfrac{1}{\sqrt{ x }} | \lim_{ x \to \infty } \\
-0\leq \lim_{ x \to \infty } \dfrac{\sin(x)}{\sqrt{ x }}\leq 0 \iff \lim_{ x \to \infty } \dfrac{\sin(x)}{\sqrt{ x }}=0 
+-1\leqslant\sin(x)\leqslant1 \\
+-\dfrac{1}{\sqrt{ x }}\leqslant \dfrac{\sin(x)}{\sqrt{ x }}\leqslant \dfrac{1}{\sqrt{ x }} | \lim_{ x \to \infty } \\
+0\leqslant \lim_{ x \to \infty } \dfrac{\sin(x)}{\sqrt{ x }}\leqslant 0 \iff \lim_{ x \to \infty } \dfrac{\sin(x)}{\sqrt{ x }}=0 
 \end{align}
 $$
 

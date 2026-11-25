@@ -112,13 +112,13 @@ $$
 f(x)=\tan(\sqrt{ x })
 \end{align}
 $$
-due to $\sqrt{ x }$: $x\geq0$
+due to $\sqrt{ x }$: $x\geqslant0$
 due to $\tan$:  $\sqrt{ x } \neq \dfrac{\pi}{2}+n\pi\iff x \neq \left( \dfrac{\pi}{2}+n\pi \right)^{2}$
 $$
 \begin{align}
 D_{f}=\left\{ \begin{array}{l}
 x\neq\left( \dfrac{\pi}{2}+n\pi \right)^{2} \\
-x\geq0
+x\geqslant0
 \end{array} \right.  \\
 D_{f}=\left\{  x \in \mathbb{R}_{+},x\neq\left( \dfrac{\pi}{2}+n\pi \right)^{2},n \in \mathbb{Z}  \right\}
 \end{align}

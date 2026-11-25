@@ -102,7 +102,7 @@ $\tan ^{2}(x)$ falls between $0$ and $\infty$, so the lowest value of tan must b
 $$
 \begin{align}
 (4x+\sin ^{2}x)'=4+\cos(x)\sin(x)+\sin(x)\cos(x)=2\cos(x)\sin(x)+4 \\
-g'(x)\geq2
+g'(x)\geqslant2
 \end{align}
 $$
 #### 8

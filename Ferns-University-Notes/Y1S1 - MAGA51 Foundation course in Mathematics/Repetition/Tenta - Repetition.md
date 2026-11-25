@@ -69,7 +69,7 @@ $$
 \begin{align}
 f'(x)=\dfrac{(5x-x^{3})'(x^{2}-16)-(5x-x^{3})(x^{2}-16)'}{(x^{2}-16)^{2}}=\dfrac{(5-3x^{2})(x^{2}-16)-(5x-x^{3})(2x)}{(x^{2}-16)^{2}} \\
 =\dfrac{5x^{2}-80-3x^{4}+48x^{2}-10x^{2}+2x^{4}}{(x^{2}-16)^{2}}=\dfrac{-x^{4}+43x^{2}-80}{(x^{2}-16)^{2}} \\
-f'(x)=0 \implies-x^{4}+43x^{2}-80 | x^{2}=t\geq 0 \\
+f'(x)=0 \implies-x^{4}+43x^{2}-80 | x^{2}=t\geqslant 0 \\
 -t^{2}+43t-80=0 \iff t^{2}-43t+80=0 \\
 t_{1,2}=\dfrac{43}{2}\pm \sqrt{ \dfrac{43^{2}}{4}-80 }=\dfrac{43}{2}\pm \sqrt{ \dfrac{1849-320}{4} }=\dfrac{43}{2}\pm \sqrt{ \dfrac{1529}{4} }= \\
 x^{2}=\dfrac{43}{2}+\dfrac{\sqrt{ 1529 }}{2} \\
@@ -140,8 +140,8 @@ $$
 $$
 $$
 \begin{align}
-\arcsin\implies-1\leq 2\sqrt{ x }\leq 1\implies-\dfrac{1}{2}\leq \sqrt{ x } \leq \dfrac{1}{2}\iff 0\leq x\leq \dfrac{1}{4} \\
-\sqrt{  }\implies x\geq 0 \\
+\arcsin\implies-1\leqslant 2\sqrt{ x }\leqslant 1\implies-\dfrac{1}{2}\leqslant \sqrt{ x } \leqslant \dfrac{1}{2}\iff 0\leqslant x\leqslant \dfrac{1}{4} \\
+\sqrt{  }\implies x\geqslant 0 \\
 D_{f\circ g}=\left[ 0, \dfrac{1}{4} \right] \\
 V_{f\circ g}=[0,\pi]
 \end{align}
@@ -166,8 +166,8 @@ R^{2}=r^{2}+(h-R)^{2} \\
 r^{2}=\cancel{ 64 }-(h^{2}-16h+\cancel{ 64 }) \\
 r^{2}=-h^{2}+16h \\
  \\
--h^{2}+16h\geq 0 \\
-h(h-16)\leq 0 \implies h \in[0,16] \\
+-h^{2}+16h\geqslant 0 \\
+h(h-16)\leqslant 0 \implies h \in[0,16] \\
  \\
 V(h)=\dfrac{\pi}{3}(-h^{2}+16h)h=\dfrac{\pi}{3}(-h^{3}+16h^{2}) \\
 V'(h)=\dfrac{\pi}{3}(-3h^{2}+32h) \\

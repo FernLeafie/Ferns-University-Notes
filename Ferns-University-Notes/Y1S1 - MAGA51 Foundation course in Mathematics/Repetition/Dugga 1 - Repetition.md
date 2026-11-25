@@ -3,13 +3,13 @@ color: ""
 ---
 #### 1
 
-Let $A=\left\{  x \in \mathbb{R} | 1+\dfrac{x}{x-1}\geq \dfrac{9}{x^{2}-1}  \right\}$ and $B=\left\{  x\geq| \dfrac{1}{2x} \leq \dfrac{1}{x+3} \right\}$
+Let $A=\left\{  x \in \mathbb{R} | 1+\dfrac{x}{x-1}\geqslant \dfrac{9}{x^{2}-1}  \right\}$ and $B=\left\{  x\geqslant| \dfrac{1}{2x} \leqslant \dfrac{1}{x+3} \right\}$
 Decide $A\cap B$
 
 $$
 \begin{align}
-1+\dfrac{x}{x-1}\geq \dfrac{9}{x^{2}-1} \iff 1+\dfrac{x}{x+1}-\dfrac{9}{(x-1)(x+1)}\geq 0\iff \dfrac{(x^{2}-1)+(x^{2}+x)-9}{(x-1)(x+1)}\geq 0 \\
-\dfrac{2x^{2}+x-10}{(x-1)(x+1)}\geq 0 \iff \dfrac{(x-2)\left( x+\dfrac{5}{2} \right)}{(x-1)(x+1)}\geq0
+1+\dfrac{x}{x-1}\geqslant \dfrac{9}{x^{2}-1} \iff 1+\dfrac{x}{x+1}-\dfrac{9}{(x-1)(x+1)}\geqslant 0\iff \dfrac{(x^{2}-1)+(x^{2}+x)-9}{(x-1)(x+1)}\geqslant 0 \\
+\dfrac{2x^{2}+x-10}{(x-1)(x+1)}\geqslant 0 \iff \dfrac{(x-2)\left( x+\dfrac{5}{2} \right)}{(x-1)(x+1)}\geqslant0
 \end{align}
 $$
 
@@ -25,7 +25,7 @@ $A=\left( -\infty,-\dfrac{5}{2} \right]\cup(-1,1)\cup[2,\infty)$
 
 $$
 \begin{align}
- \dfrac{1}{2x} \leq \dfrac{1}{x+3}\iff  \dfrac{1}{2x}-\dfrac{1}{x+3} \leq 0 \iff \dfrac{(x+3)-2x}{2x(x+3)}\leq 0 \iff \dfrac{-x+3}{2x(x+3)}\leq 0
+ \dfrac{1}{2x} \leqslant \dfrac{1}{x+3}\iff  \dfrac{1}{2x}-\dfrac{1}{x+3} \leqslant 0 \iff \dfrac{(x+3)-2x}{2x(x+3)}\leqslant 0 \iff \dfrac{-x+3}{2x(x+3)}\leqslant 0
 \end{align}
 $$
 
@@ -118,10 +118,10 @@ $$
 \end{align}
 $$
 #### 12
-Solve the difference $\dfrac{1}{|2x-1|}\geq \dfrac{2}{|x+3|}$
+Solve the difference $\dfrac{1}{|2x-1|}\geqslant \dfrac{2}{|x+3|}$
 $$
 \begin{align}
-\dfrac{1}{|2x-1|}\geq \dfrac{2}{|x+3|}\iff |x+3|\geq 2|2x-1|, x \neq \dfrac{1}{2},x\neq3 \\
+\dfrac{1}{|2x-1|}\geqslant \dfrac{2}{|x+3|}\iff |x+3|\geqslant 2|2x-1|, x \neq \dfrac{1}{2},x\neq3 \\
 
 \end{align}
 $$
@@ -129,11 +129,11 @@ $$
 $$
 \begin{align}
 |x+3| = \left\{ \begin{array}{lll}
-x+3, & x\geq-3\\
+x+3, & x\geqslant-3\\
 -(x+3), & x<-3
 \end{array} \right.  \\
 |2x-1| = \left\{ \begin{array}{lll}
-2x-1, & x\geq \dfrac{1}{2}\\
+2x-1, & x\geqslant \dfrac{1}{2}\\
 -(2x-1), & x< \dfrac{1}{2}
 \end{array} \right. 
 \end{align}
@@ -142,35 +142,35 @@ $$
 $x<-3$
 $$
 \begin{align}
--(x+3)\geq 2(-(2x-1)) \\
--x-3\geq -4x+2 \\
-3x\geq 5 \\
-x\geq \dfrac{5}{3} \\
+-(x+3)\geqslant 2(-(2x-1)) \\
+-x-3\geqslant -4x+2 \\
+3x\geqslant 5 \\
+x\geqslant \dfrac{5}{3} \\
 x \in \left[ \dfrac{5}{3},\infty \right) \cap (-\infty,-3) \\
 x \in \varnothing
 \end{align}
 $$
 ##### Case 2
-$-3\leq x< \dfrac{1}{2}$
+$-3\leqslant x< \dfrac{1}{2}$
 $$
 \begin{align}
--(x+3)\geq 2(-(2x-1)) \\
-x+3\geq-4x+2 \\
-5x\geq-1 \\
-x\geq \dfrac{1}{5} \\
+-(x+3)\geqslant 2(-(2x-1)) \\
+x+3\geqslant-4x+2 \\
+5x\geqslant-1 \\
+x\geqslant \dfrac{1}{5} \\
 x \in\left[ -\dfrac{1}{5}, \infty\right]\cap\left[ -3, \dfrac{1}{2} \right) \\
 x \in\left[ -\dfrac{1}{5}, \dfrac{1}{2} \right)
 \end{align}
 $$
 ##### Case 3
-$x\geq \dfrac{1}{2}$
+$x\geqslant \dfrac{1}{2}$
 
 $$
 \begin{align}
-(x+3)\geq2(2x-1) \\
-x+3\geq 4x-2 \\
--3x\geq -5 \\
-x\leq \dfrac{5}{3} \\
+(x+3)\geqslant2(2x-1) \\
+x+3\geqslant 4x-2 \\
+-3x\geqslant -5 \\
+x\leqslant \dfrac{5}{3} \\
 x \in \left( -\infty, \dfrac{5}{3} \right] \cap \left[ \dfrac{1}{2},\infty \right) \\
 x \in \left( \dfrac{1}{2}, \dfrac{5}{3} \right]
 \end{align}
@@ -187,7 +187,7 @@ $$
 x>0 \\
 D_{f}=R_{+} \\
  \\
-x\geq 0 \\
+x\geqslant 0 \\
 D_{g}=[0,\infty)
 \end{align}
 $$
@@ -197,7 +197,7 @@ Decide $(g\circ f)(x)$, limit $D_{f}$ so that $(g \circ f)$ can be calculated, a
 $$
 \begin{align}
 (g\circ f)(x)=g(f(x))=g(\ln(2x))=2\sin(\sqrt{ \ln(2x) })-1 \\
-\sqrt{  }: \ln(2x)\geq 0 \iff 2x \geq 1 \iff  x\geq \dfrac{1}{2} \\
+\sqrt{  }: \ln(2x)\geqslant 0 \iff 2x \geqslant 1 \iff  x\geqslant \dfrac{1}{2} \\
 D_{(g \circ f)}=\left[ \dfrac{1}{2} ,\infty\right) \\
 D_{f \text{ new}}=\left[ \dfrac{1}{2} ,\infty\right)
 \end{align}
@@ -209,18 +209,18 @@ $$
 g(x)=y \iff 2\sin(\sqrt{ x })-1=y\iff 2\sin(\sqrt{ x })=y-1\iff \sin(\sqrt{ x })=\dfrac{y+1}{2} \\
 \sqrt{ x } = \arcsin\left( \dfrac{y+1}{2} \right)\iff x=\arcsin ^{2}\left( \dfrac{y+1}{2} \right) \\
  \\
--1\leq \sin(\sqrt{ x })\leq 1 \iff -2\leq 2\sin(\sqrt{ x })\leq 2\iff -3\leq 2\sin(\sqrt{ x })-1\leq 1 \\
+-1\leqslant \sin(\sqrt{ x })\leqslant 1 \iff -2\leqslant 2\sin(\sqrt{ x })\leqslant 2\iff -3\leqslant 2\sin(\sqrt{ x })-1\leqslant 1 \\
 y \in [-3,1] \\
--3\leq y \leq 1 \\
--2\leq y+1\leq 2 \\
--1\leq \dfrac{y+1}{2}\leq 1 \\
+-3\leqslant y \leqslant 1 \\
+-2\leqslant y+1\leqslant 2 \\
+-1\leqslant \dfrac{y+1}{2}\leqslant 1 \\
 \text{Yippie} \\
 \text{But as arcsin is only defined for a limited interval} \\
 \sin: \left[ -\dfrac{\pi}{2}, \dfrac{\pi}{2} \right]\to [-1,1] \\
 \arcsin: [-1,1] \to \left[ -\dfrac{\pi}{2}, \dfrac{\pi}{2} \right] \\
 \sqrt{ x } \in \left[ -\dfrac{\pi}{2}, \dfrac{\pi}{2} \right] \\
-0\leq \sqrt{ x }\leq \dfrac{\pi}{2} \\
-0\leq x \leq \dfrac{\pi^{2}}{4} \\
+0\leqslant \sqrt{ x }\leqslant \dfrac{\pi}{2} \\
+0\leqslant x \leqslant \dfrac{\pi^{2}}{4} \\
 D_{g}=\left[ 0,\dfrac{\pi^{2}}{4} \right]
 \end{align}
 $$

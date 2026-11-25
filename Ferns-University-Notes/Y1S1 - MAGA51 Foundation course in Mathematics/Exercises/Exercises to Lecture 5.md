@@ -5,7 +5,7 @@ $$
 f(x)=x^{4}-2x^{2}+6 \\
 x^{2}=t \\
 t^{2}-2t+6=t^{2}-2t+1-1+6=(t-1)^{2}+5 \\
-\underbrace{ (x^{2}-1)^{2} }_{ \geq 0 }+5
+\underbrace{ (x^{2}-1)^{2} }_{ \geqslant 0 }+5
 \end{align}
 $$
 min is 5, when $x^{2}-1=0\implies x=\pm1$

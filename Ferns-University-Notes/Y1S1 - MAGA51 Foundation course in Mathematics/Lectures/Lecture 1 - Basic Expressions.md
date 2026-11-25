@@ -30,8 +30,8 @@ If equivalence is to be used both sides must cover all possible alternatives
 $$
 \begin{align}
 x+1=2\iff x=1 \\
-x+1=2\cancel{ \iff } x\geq1 \\
-x+1=2\impliedby  x\geq1
+x+1=2\cancel{ \iff } x\geqslant1 \\
+x+1=2\impliedby  x\geqslant1
 \end{align}
 $$
 
@@ -39,13 +39,13 @@ Implications and equivalence are to be used between statements, while equals is 
 
 If any step of a calculation is connected through implication, and not equivalence,  we must check for false roots.
 We can cover for them by introducing requirements
-$\sqrt{ x+10 }$ only works if $x+10>0\implies x\geq-10$ 
-$2+\underbrace{ \sqrt{ x+10 } }_{ \geq0 }=x\implies x\geq2$
+$\sqrt{ x+10 }$ only works if $x+10>0\implies x\geqslant-10$ 
+$2+\underbrace{ \sqrt{ x+10 } }_{ \geqslant0 }=x\implies x\geqslant2$
 ### Set theory
 $$
 \begin{align}
 A=\{ 1,2,3 \} \\
-B=\{ x|0<x\leq1 \}
+B=\{ x|0<x\leqslant1 \}
 \end{align}
 $$
 

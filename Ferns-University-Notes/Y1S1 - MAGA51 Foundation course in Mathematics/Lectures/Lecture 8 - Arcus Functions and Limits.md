@@ -144,19 +144,19 @@ $\arccos:[-1,1]\to[0,\pi]$
 
 $$
 \begin{align}
-0\leq \arccos\left( 1+\dfrac{1}{x} \right)\leq \pi \\
-0\geq-2\arccos\left( 1+\dfrac{1}{x} \right)\geq-2\pi \\
-1\geq-2\arccos\left( 1+\dfrac{1}{x} \right)+1\geq1-2\pi \\
+0\leqslant \arccos\left( 1+\dfrac{1}{x} \right)\leqslant \pi \\
+0\geqslant-2\arccos\left( 1+\dfrac{1}{x} \right)\geqslant-2\pi \\
+1\geqslant-2\arccos\left( 1+\dfrac{1}{x} \right)+1\geqslant1-2\pi \\
 V_{f}=[1-2\pi,1]
 \end{align}
 $$
 domain:
 $$
 \begin{align}
--1\leq 1+\dfrac{1}{x}\leq 1 \cap x \neq 1 \\
+-1\leqslant 1+\dfrac{1}{x}\leqslant 1 \cap x \neq 1 \\
 \left\{ \begin{array}{lll}
-1+\dfrac{1}{x}\leq1 \\
-1+\dfrac{1}{x}\geq -1
+1+\dfrac{1}{x}\leqslant1 \\
+1+\dfrac{1}{x}\geqslant -1
 \end{array} \right. =\left\{ \begin{array}{lll}
 x \in(-\infty,0) \\
 x \in \left(-\infty,-\dfrac{1}{2}\right] \cup(0,\infty)
@@ -187,8 +187,8 @@ $$
 \begin{align}
 (f\circ  g)(x)=f(g(x))=-2\arccos\left( 1+\dfrac{1}{\dfrac{1}{2x-1}} \right)+1 \\
 = -2\arccos(2x)+1, x\neq \dfrac{1}{2} \\
--1\leq2x\leq1 \\
--\dfrac{1}{2}\leq x \leq \dfrac{1}{2} \\
+-1\leqslant2x\leqslant1 \\
+-\dfrac{1}{2}\leqslant x \leqslant \dfrac{1}{2} \\
 D_{f\circ g}=\left[ -\dfrac{1}{2}, \dfrac{1}{2} \right]\cap x\neq \dfrac{1}{2}=\left[ -\dfrac{1}{2}, \dfrac{1}{2} \right)=D_{g_{\text{limited}}}
 \end{align}
 $$

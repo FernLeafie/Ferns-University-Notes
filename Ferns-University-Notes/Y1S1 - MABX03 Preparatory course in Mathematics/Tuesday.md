@@ -1,4 +1,4 @@
-For $x^{2}+px+q=0$ we can only use the pq forumula as long as $p^{2}-4q\geq 0$
+For $x^{2}+px+q=0$ we can only use the pq forumula as long as $p^{2}-4q\geqslant 0$
 $$
 x=-\dfrac{p}{2}\pm \sqrt{ \dfrac{p^{2}}{4}-q }\implies x=-\dfrac{p}{2}\pm \sqrt{ \left( \dfrac{p}{2} \right)^{2}-q }
 $$
@@ -15,11 +15,11 @@ $$
 $$
 \begin{align}
 |x|=\left\{ \begin{array}{lll}
-&x,&x\geq 0 \\
+&x,&x\geqslant 0 \\
 &-x,&x< 0
 \end{array} \right.  \\
 |x-3|=\left\{ \begin{array}{lll}
-&x-3,&x\geq -3 \\
+&x-3,&x\geqslant -3 \\
 &-(x-3),&x< -3
 \end{array} \right. 
 \end{align}
@@ -47,7 +47,7 @@ $$
 
 $$
 \begin{align}
-x(x+2)(x-3)\geq 0
+x(x+2)(x-3)\geqslant 0
 \end{align}
 $$
 
@@ -61,7 +61,7 @@ $$
 $$
 \begin{align}
 [-2,0] \text{ or } [3,\infty) \\
-\{ x \in \mathbb{R}, -2\leq x\leq0 \text{ or } 3\leq x \}
+\{ x \in \mathbb{R}, -2\leqslant x\leqslant0 \text{ or } 3\leqslant x \}
 \end{align}
 $$
 ---
@@ -70,12 +70,12 @@ $$
 \begin{align}
 |x-3|+x=5\implies \\
 |x-3|=\left\{ \begin{array}{lll}
- & x-3, & x\geq 3 \\
+ & x-3, & x\geqslant 3 \\
  & 3-x, & x< 3
 \end{array} \right.
 \end{align}
 $$
-for $x\geq 3$
+for $x\geqslant 3$
 $$
 x-3+x=5\implies
 2x=8\implies x=4
@@ -223,10 +223,10 @@ $$
 b)
 $$
 \begin{align}
-\frac{4x}{x+1}\leq x^{2}-2x\implies\frac{4x}{x+1}-(x^{2}-2x)\leq 0\implies \\
-\frac{4x}{x+1}-(x^{2}-2x)\leq 0\implies \\
+\frac{4x}{x+1}\leqslant x^{2}-2x\implies\frac{4x}{x+1}-(x^{2}-2x)\leqslant 0\implies \\
+\frac{4x}{x+1}-(x^{2}-2x)\leqslant 0\implies \\
 \dots \\
--\frac{x(x+2)(x-3)}{x+1}\leq 0\implies \frac{x(x+2)(x-3)}{x+1}\geq 0
+-\frac{x(x+2)(x-3)}{x+1}\leqslant 0\implies \frac{x(x+2)(x-3)}{x+1}\geqslant 0
 \end{align}
 $$
 
@@ -242,7 +242,7 @@ $$
 
 $$
 \begin{align}
-\{ x \in \mathbb{Z}, x\leq -2\cup-1< x\leq 0\cup3\leq x \} \\
+\{ x \in \mathbb{Z}, x\leqslant -2\cup-1< x\leqslant 0\cup3\leqslant x \} \\
 (-\infty,-2] \cup(-1,0]\cup[3,\infty)
 \end{align}
 $$
@@ -283,12 +283,12 @@ $$
 \begin{align}
 |x+1|<2 \\
 |x+1|=\left\{ \begin{array}{lll}
- & x+1, & x\geq -1 \\
+ & x+1, & x\geqslant -1 \\
  & -x-1, & x< -1
 \end{array} \right.
 \end{align}
 $$
-for $x\geq-1$
+for $x\geqslant-1$
 $$
 \begin{align}
 x+1<2 \\
@@ -309,11 +309,11 @@ $$
 \begin{align}
 |x-1|+|x-2|=3 \\
 |x-1|=\left\{ \begin{array}{lll}
- & x-1, & x\geq 1 \\
+ & x-1, & x\geqslant 1 \\
  & 1-x, & x< 1
 \end{array} \right. \\
 |x-2|=\left\{ \begin{array}{lll}
- & x-2, & x\geq 2 \\
+ & x-2, & x\geqslant 2 \\
  & 2-x, & x< 2
 \end{array} \right. \\
 \end{align}

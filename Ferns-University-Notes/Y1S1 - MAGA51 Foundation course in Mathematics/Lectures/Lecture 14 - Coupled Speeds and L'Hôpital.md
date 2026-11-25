@@ -167,9 +167,9 @@ $$
 \text{however this just means the L'H derivation doesnt exist} \\
 \text{the original limit can still exist} \\
 \lim_{ x \to \infty } \left( 1+\dfrac{\sin x}{x} \right)=1+\overbrace{ \lim_{ x \to \infty } \dfrac{\sin x}{x} }^{ =0 }=1 \\
--1\leq \sin x\leq1 \\
-\dfrac{-1}{x} \leq \dfrac{\sin x}{x} \leq \dfrac{1}{x} \\
-0\leq \dfrac{\sin x}{x}\leq0
+-1\leqslant \sin x\leqslant1 \\
+\dfrac{-1}{x} \leqslant \dfrac{\sin x}{x} \leqslant \dfrac{1}{x} \\
+0\leqslant \dfrac{\sin x}{x}\leqslant0
 \end{align}
 $$
 $$

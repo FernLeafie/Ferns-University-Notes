@@ -9,7 +9,7 @@ $$
 \begin{align}
 3+4\sin x=\cos 2x \iff 3+4\sin x= 1-2\sin ^{2}x \\
 -2\sin ^{2}x-4\sin x-2=0 \iff 2\sin ^{2}x+4\sin x+2=0 \\
-\text{Substitute } \sin x=t,-1\leq t\leq1 \\
+\text{Substitute } \sin x=t,-1\leqslant t\leqslant1 \\
 2t^{2}+4t+2=0 \\
 t^{2}+2t+1=0 \\
 (t+1)^{2}=0 \\
@@ -24,10 +24,10 @@ $g \circ f$
 $$
 \begin{align}
 D_{f}=\mathbb{R} \\
-D_{g}=\{ x:x^{2}-16\geq0 \}=\{ [-\infty,-4]\cup[4,\infty] \} \\
+D_{g}=\{ x:x^{2}-16\geqslant0 \}=\{ [-\infty,-4]\cup[4,\infty] \} \\
 (g \circ f)=g(f(x))=\sqrt{ (x-2)^{2}-16 } \\
-(x-2)^{2}-16\geq0 \iff x^{2}-4x-12\geq 0 \\
-(x+2)(x-6)\geq0 \\
+(x-2)^{2}-16\geqslant0 \iff x^{2}-4x-12\geqslant 0 \\
+(x+2)(x-6)\geqslant0 \\
 D_{(g\circ f)}=(-\infty,-2] \cup [6,\infty)
 \end{align}
 $$

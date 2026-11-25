@@ -113,8 +113,8 @@ $$
 This is called the orientation of integration.
 $$
 \begin{align}
-\text{if } f(x)\leq g(x) \text{ then} \\
-\int_{a}^{b} f(x) \, dx \leq \int_{a}^{b} g(x) \, dx  
+\text{if } f(x)\leqslant g(x) \text{ then} \\
+\int_{a}^{b} f(x) \, dx \leqslant \int_{a}^{b} g(x) \, dx  
 \end{align}
 $$
 ### Example

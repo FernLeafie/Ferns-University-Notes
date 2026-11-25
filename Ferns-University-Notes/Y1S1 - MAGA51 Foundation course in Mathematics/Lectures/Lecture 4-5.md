@@ -148,8 +148,8 @@ $$
 
 $$
 \begin{align}
-&-1\leq x\leq1 &|+\dfrac{7}{2} \\
-&\dfrac{5}{2}\leq x \leq \dfrac{9}{2} &|()^{2} \\
+&-1\leqslant x\leqslant1 &|+\dfrac{7}{2} \\
+&\dfrac{5}{2}\leqslant x \leqslant \dfrac{9}{2} &|()^{2} \\
 \end{align}
 $$
 Solve the equation $z^{4}-z^{3}+4z^{2}+3z+5=0$ if $z=1+2i$ is a solution

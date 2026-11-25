@@ -3,8 +3,8 @@ There are three candidates to max and minimum values
 - Singular points ${}\nexists f'(a){}$
 - End points of the functions domain or interval 
 
-- ${}f''(x)\geq 0{}$ for an interval ${}l\implies f{}$ is convex in ${}l{}$
-- ${}f''(x)\leq 0{}$ for an interval ${}l\implies f{}$ is concave in ${}l{}$
+- ${}f''(x)\geqslant 0{}$ for an interval ${}l\implies f{}$ is convex in ${}l{}$
+- ${}f''(x)\leqslant 0{}$ for an interval ${}l\implies f{}$ is concave in ${}l{}$
 Inflection point is when a function goes from convex to concave or vise versa
 it's the point where the angle of the graph goes from increasing, to decreasing, or the reverse
 ## Examples
@@ -40,7 +40,7 @@ There are two end points, ${}x=-8{}$ and ${}x=8{}$
 ${}f(x)=\dfrac{x^{2}}{\sqrt{ 9-x^{2} }}{}$
 Find domain
 ${}D_{\div}=9-x^{2}\neq 0\iff x^{2}\neq 9\iff x\neq\pm 3{}$
-${}D_{\sqrt{}}=9-x^{2}\geq 0\iff(3-x)(3+x)\geq 0{}$
+${}D_{\sqrt{}}=9-x^{2}\geqslant 0\iff(3-x)(3+x)\geqslant 0{}$
 
 |        ${}x{}$        |         | ${}-3{}$ |         | ${}3{}$ |         |
 | :-------------------: | :-----: | :------: | :-----: | :-----: | :-----: |

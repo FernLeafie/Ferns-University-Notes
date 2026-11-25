@@ -49,7 +49,7 @@ $$
 \begin{align}
 \int_{1}^{\infty} \dfrac{1}{x^{p}} \, dx =\begin{cases}
 \text{Convergent if} &  p>1 \\ \\
-\text{Divergent if} &  p\leq 1 
+\text{Divergent if} &  p\leqslant 1 
 \end{cases}
 \end{align}
 $$

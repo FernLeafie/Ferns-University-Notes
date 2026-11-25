@@ -23,7 +23,7 @@ Due to root
 
 $$
 \begin{align}
-x^{2}-1\geq 0\iff (x-1)(x+1)\geq 0
+x^{2}-1\geqslant 0\iff (x-1)(x+1)\geqslant 0
 \end{align}
 $$
 

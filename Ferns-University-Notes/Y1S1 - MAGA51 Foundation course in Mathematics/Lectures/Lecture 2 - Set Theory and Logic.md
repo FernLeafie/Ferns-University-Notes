@@ -1,10 +1,10 @@
 #### 1.
-Let the set $A = \left\{  x \in\mathbb{R} | \dfrac{x}{x^{2}-4}\leq \dfrac{1}{x-1}  \right\}$ and $B=\{ x \in \mathbb{R}|\sqrt{ x+1 }\geq x-1 \}$ and calculate $A\cap B$
+Let the set $A = \left\{  x \in\mathbb{R} | \dfrac{x}{x^{2}-4}\leqslant \dfrac{1}{x-1}  \right\}$ and $B=\{ x \in \mathbb{R}|\sqrt{ x+1 }\geqslant x-1 \}$ and calculate $A\cap B$
 
 $$
 \begin{align}
-\dfrac{x}{x^{2}-4}\leq \dfrac{1}{x-1}\iff \dfrac{x}{(x-2)(x+2)}-\dfrac{1}{x-1}\leq 0\iff \dfrac{x(x-1)-1(x-2)(x+2)}{(x-2)(x+2)(x-1)}\leq 0 \iff  \\
-\dfrac{(x^{2}-x)-(x^{2}-4)}{(x-2)(x+2)(x-1)}\leq 0\implies \dfrac{-x+4}{(x-2)(x+2)(x-1)}\leq 0
+\dfrac{x}{x^{2}-4}\leqslant \dfrac{1}{x-1}\iff \dfrac{x}{(x-2)(x+2)}-\dfrac{1}{x-1}\leqslant 0\iff \dfrac{x(x-1)-1(x-2)(x+2)}{(x-2)(x+2)(x-1)}\leqslant 0 \iff  \\
+\dfrac{(x^{2}-x)-(x^{2}-4)}{(x-2)(x+2)(x-1)}\leqslant 0\implies \dfrac{-x+4}{(x-2)(x+2)(x-1)}\leqslant 0
 \end{align}
 $$
 
@@ -21,18 +21,18 @@ $x \in\underbrace{ (-\infty,-2)\cup(1,2)\cup[4,\infty) }_{ A= }$
 For root differances we're unsure how sides with $x$ behave, since it might be negative, so we must attempt both cases
 $$
 \begin{align}
-\sqrt{ x+1 } \geq x-1
+\sqrt{ x+1 } \geqslant x-1
 \end{align}
 $$
 ##### Case 1
-$x-1\geq0\iff x\geq 1$
+$x-1\geqslant0\iff x\geqslant 1$
 $$
 \begin{align}
-\sqrt{ x+1 }\geq x-1 \quad | \quad ()^{2} \\
-x+1\geq (x-1)^{2} \\
-x+1\geq x^{2}-2x+1 \\
-0\geq x^{2}-3x \\
-0\geq x(x-3)
+\sqrt{ x+1 }\geqslant x-1 \quad | \quad ()^{2} \\
+x+1\geqslant (x-1)^{2} \\
+x+1\geqslant x^{2}-2x+1 \\
+0\geqslant x^{2}-3x \\
+0\geqslant x(x-3)
 \end{align}
 $$
 
@@ -46,11 +46,11 @@ $x \in[1,3]$
 $x-1<0\iff x< 1$
 $$
 \begin{align}
-\underbrace{ \sqrt{ x+1 } }_{ \geq0 }\geq \underbrace{ x-1 }_{ <0 }
+\underbrace{ \sqrt{ x+1 } }_{ \geqslant0 }\geqslant \underbrace{ x-1 }_{ <0 }
 \end{align}
 $$
 $x-1$ is always less than $0$ since we require x to be less than one, which makes it always less than the L.H.S as square roots are always positive
-However we require $x \in \mathbb{R}$, so the contents of the root cant be negative, so $x\geq-1$
+However we require $x \in \mathbb{R}$, so the contents of the root cant be negative, so $x\geqslant-1$
 thus for case 2, $x \in[-1,1)$
 
 for the full answer we need the union between the two $x$'s
@@ -70,11 +70,11 @@ This step is important to explain for some reason, or you risk loosing points
 $$
 \begin{align}
 |2x-3|=\left\{ \begin{array}{lll}
-2x-3, & \text{if }x\geq \dfrac{3}{2} \\
+2x-3, & \text{if }x\geqslant \dfrac{3}{2} \\
 3-2x, & \text{if }x< \dfrac{3}{2}
 \end{array} \right.  \\
 |x-1|=\left\{ \begin{array}{lll}
-x-1, & \text{if } x\geq1 \\
+x-1, & \text{if } x\geqslant1 \\
 1-x, & \text{if } x<1
 \end{array} \right. 
 \end{align}
@@ -86,34 +86,34 @@ Now we need cases for each combination of the cases the absolute values end up i
 $x<1$
 $$
 \begin{align}
-3-2x+1-x\geq x+3 \\
--4x\geq-1 \\
-x\leq \dfrac{1}{4}
+3-2x+1-x\geqslant x+3 \\
+-4x\geqslant-1 \\
+x\leqslant \dfrac{1}{4}
 \end{align}
 $$
 $x \in\left( -\infty, \dfrac{1}{4} \right]$
 $x$ falls within the cases' span
 ##### Case 2
-$1\leq x < \dfrac{3}{2}$
+$1\leqslant x < \dfrac{3}{2}$
 
 $$
 \begin{align}
-3-2x+x-1 \geq x+3 \\
--2x\geq 1 \\
-x\leq-\dfrac{1}{2}
+3-2x+x-1 \geqslant x+3 \\
+-2x\geqslant 1 \\
+x\leqslant-\dfrac{1}{2}
 \end{align}
 $$
 $x \in \left( -\infty, -\dfrac{1}{2} \right]$
 $x$ falls outside the cases' span
 $x \in \varnothing$
 ##### Case 3
-$x\geq \dfrac{3}{2}$
+$x\geqslant \dfrac{3}{2}$
 
 $$
 \begin{align}
-2x-3+x-1\geq x+3 \\
-2x\geq7 \\
-x\geq \dfrac{7}{2}
+2x-3+x-1\geqslant x+3 \\
+2x\geqslant7 \\
+x\geqslant \dfrac{7}{2}
 \end{align}
 $$
 $x \in\left[ \dfrac{7}{2},\infty \right)$

@@ -244,8 +244,8 @@ export default [
 
   { trigger: "===", replacement: "\\equiv", options: "mA" },
   { trigger: "!=", replacement: "\\neq", options: "mA" },
-  { trigger: ">=", replacement: "\\geq", options: "mA" },
-  { trigger: "<=", replacement: "\\leq", options: "mA" },
+  { trigger: ">=", replacement: "\\geqslant", options: "mA" },
+  { trigger: "<=", replacement: "\\leqslant", options: "mA" },
   { trigger: ">>", replacement: "\\gg", options: "mA" },
   { trigger: "<<", replacement: "\\ll", options: "mA" },
   { trigger: "simm", replacement: "\\sim", options: "mA" },
@@ -661,7 +661,7 @@ export default [
 
   // ----- custom block -----
   { trigger: "app", replacement: "\\approx ", options: "mA" },
-  { trigger: "\\leq>", replacement: "\\iff ", options: "mA" },
+  { trigger: "\\leqslant>", replacement: "\\iff ", options: "mA" },
   { trigger: "neg", replacement: "\\neg ", options: "mA", priority: 1 },
   { trigger: "bin", replacement: "\\binom{$0}{$1}$2", options: "mA" },
   { trigger: "bol", replacement: "\\circ ", options: "mA", priority: 1 },

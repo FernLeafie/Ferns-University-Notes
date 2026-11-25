@@ -15,7 +15,7 @@ a)
 "There is a positive real number $x$ so that $e^{ x }<1+x$" $=\exists x: P$
 "There is no positive real number $x$ so that $e^{ x }<1+x$" $=\forall x: ¬P$
 $$
-\neg (\exists x \in \mathbb{R}_{+}: e^{ x }<1+x )\iff  \forall x \in \mathbb{R}_{+}:\neg (e^{ x }<1+x)\iff \forall x \in \mathbb{R}_{+}: e^{ x }\geq1+x
+\neg (\exists x \in \mathbb{R}_{+}: e^{ x }<1+x )\iff  \forall x \in \mathbb{R}_{+}:\neg (e^{ x }<1+x)\iff \forall x \in \mathbb{R}_{+}: e^{ x }\geqslant1+x
 $$
 b)
 "No student failed"
@@ -48,9 +48,9 @@ $$
 \begin{align}
 \left\{ \begin{array}{lll}
 x^{2}+y^{2}>2^{2} \\
-(x-1)^{2} +(y-2)^{2}\leq5
+(x-1)^{2} +(y-2)^{2}\leqslant5
 \end{array} \right.  \\
-x^{2}+y^{2}>2^{2} \land(x-1)^{2} +(y-2)^{2}\leq5
+x^{2}+y^{2}>2^{2} \land(x-1)^{2} +(y-2)^{2}\leqslant5
 \end{align}
 $$
 ### 4.

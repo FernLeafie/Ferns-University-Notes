@@ -32,7 +32,7 @@ Be careful when integrating fractions to not write them together in an attempt t
 ## Partial Fraction Decomposition Algorithm
 Goal: Integrate ${}\int \dfrac{P(x)}{Q(x)} \, dx{}$
 Steps:
-0. If ${}\deg P\geq\deg Q{}$
+0. If ${}\deg P\geqslant\deg Q{}$
    Do a polynomial division
    As that will yield a rest, with the properties ${}\deg P<\deg Q{}$
 1. Factorise ${}Q(x){}$

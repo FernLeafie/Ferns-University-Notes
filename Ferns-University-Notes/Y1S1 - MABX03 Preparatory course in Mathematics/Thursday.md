@@ -279,7 +279,7 @@ $$
 b)
 #### 4.27
 c)
-where the span $0\leq x\leq \pi$ apply
+where the span $0\leqslant x\leqslant \pi$ apply
 $$
 \begin{align}
 \cos\left( 5x-\dfrac{\pi}{4} \right)=1\implies \cos\left( 5x-\dfrac{\pi}{4} \right)=\cos(0)\implies 5x-\dfrac{\pi}{4}=0+2n\pi \implies 5x=\dfrac{\pi}{4}+2n\pi\implies \\

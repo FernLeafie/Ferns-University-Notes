@@ -98,7 +98,7 @@ Only used with integration of **rational functions**: ${}f(x)=\dfrac{P(x)}{Q(x)}
 So when ${}P(x){}$ and ${}Q(x){}$ are polynomials.
 ${}P(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{n}x^{n}{}$. Degree of ${}P(x)={}$ the highest ${}x{}$-exponent, expressed as ${}\deg P{}$ 
 
-If ${}\enclose{box}{\deg P\geq\deg Q}{}$ polynomial division works well, at least to get us to a form where partial fraction decomposition works on the rest.
+If ${}\enclose{box}{\deg P\geqslant\deg Q}{}$ polynomial division works well, at least to get us to a form where partial fraction decomposition works on the rest.
 Otherwise, if ${}\enclose{box}{\deg P<\deg Q}{}$ we will have to use partial fraction decomposition. An example of this can be ${}\int \dfrac{x+1}{x^{3}+1} \, dx{}$.
 ### Building Blocks
 the following is true:

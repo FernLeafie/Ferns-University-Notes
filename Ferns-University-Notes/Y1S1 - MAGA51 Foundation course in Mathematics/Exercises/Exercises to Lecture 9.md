@@ -24,7 +24,7 @@ $$
 $$
 \begin{align}
 f(x)=\dfrac{\sqrt{ x^{2}-4 }}{|x|-4} \\
-D_{f}:|x|-4\neq0,x^{2}-4\geq0=(x-2)(x+2) \iff D_{f}=(-\infty,-2]\cup[2,\infty)\setminus \{ -4,4 \} \\
+D_{f}:|x|-4\neq0,x^{2}-4\geqslant0=(x-2)(x+2) \iff D_{f}=(-\infty,-2]\cup[2,\infty)\setminus \{ -4,4 \} \\
 \lim_{ x \to -\infty } \dfrac{\sqrt{ x^{2}-4 }}{|x|-4} =\lim_{ x \to -\infty }\dfrac{\dfrac{\sqrt{ x^{2}-4 }}{x}}{\dfrac{|x|-4}{x}} =\lim_{ x \to -\infty }\dfrac{\sqrt{\dfrac{ x^{2}-4 }{x^{2}}}}{\dfrac{|x|-4}{x}} =\lim_{ x \to -\infty }\dfrac{\sqrt{\dfrac{ x^{2}}{x^{2}}-\dfrac{4}{x^{2}}}}{\dfrac{|x|}{x}-\dfrac{4}{x}} =`` \dfrac{\sqrt{ 1-0 }}{1-0}"=`` \dfrac{\sqrt{ 1 }}{1}"=1
 \end{align}
 $$

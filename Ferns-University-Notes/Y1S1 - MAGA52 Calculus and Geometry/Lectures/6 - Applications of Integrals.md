@@ -39,7 +39,7 @@ s = \int_{a}^{b} \sqrt{ 1+(f'(x))^{2} } \, dx
 \end{align}
 $$
 ### Example
-Calculate the length of the curve ${}y=\sqrt{ 4-x^{2} }{}$ for ${}-2 \leq x\leq 1{}$
+Calculate the length of the curve ${}y=\sqrt{ 4-x^{2} }{}$ for ${}-2 \leqslant x\leqslant 1{}$
 #### Solution
 $$
 \begin{align}

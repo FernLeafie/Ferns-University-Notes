@@ -8,7 +8,7 @@ $$
 \begin{align}
 y=\left\{ \begin{array}{lll}
 x+1,&x<0 \\
-2x+1, &x\geq0
+2x+1, &x\geqslant0
 \end{array} \right. 
 \end{align}
 $$
